@@ -1,7 +1,17 @@
 aid: dezerv
 name: Dezerv
-description: 'Dezerv is a company surfaced as a portfolio company of accel and added to the API Evangelist
-  network as a stub for enrichment. Sector: services. This profile is a lead awaiting the enrichment pipeline.'
+description: >-
+  Dezerv (Dezerv Investments Private Limited) is an Indian wealth-management
+  platform building a house of investment solutions for affluent Indians. It
+  offers discretionary Portfolio Management Services (PMS), curated mutual-fund
+  portfolios, bonds, an Investment Portfolio Analyser (IPA), a Wealth Monitor
+  for tracking held-away assets, and ESOP financing, alongside a research-led
+  investment philosophy and a weekly money newsletter. Dezerv is a SEBI-registered
+  Portfolio Manager (INP000007377) and Investment Manager to a Category-I AIF /
+  Angel Fund; mutual-fund distribution is via its AMFI-registered subsidiary.
+  The company is client-facing (client.dezerv.in portal) and does not publish a
+  public developer API surface. This API Evangelist profile enriches the company
+  identity, links, and security posture rather than an API.
 url: https://raw.githubusercontent.com/api-evangelist/dezerv/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,12 +19,31 @@ x-backed-by:
 - accel
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://framerusercontent.com/assets/pYcX2DwUVTEKGhwCSJzs6DdrJI.png
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
 - Services
+- Wealth Management
+- Investment
+- Portfolio Management
+- Mutual Funds
+- Fintech
+- India
+- Financial Services
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -24,3 +53,24 @@ maintainers:
 common:
 - type: Website
   url: https://www.dezerv.in/
+- type: Blog
+  url: https://www.dezerv.in/blog/
+- type: Support
+  url: https://www.dezerv.in/faqs/
+- type: Login
+  url: https://client.dezerv.in/login
+- type: PrivacyPolicy
+  url: https://www.dezerv.in/privacy/
+- type: TermsOfService
+  url: https://www.dezerv.in/terms/
+- type: TrustCenter
+  url: https://www.dezerv.in/security/
+- type: Compliance
+  url: https://www.dezerv.in/security/
+- type: DomainSecurity
+  url: security/dezerv-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence

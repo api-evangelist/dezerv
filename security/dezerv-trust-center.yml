@@ -1,0 +1,27 @@
+generated: '2026-07-18'
+method: searched
+source: https://www.dezerv.in/security/
+url: https://www.dezerv.in/security/
+certifications:
+- ISO 27001
+compliance_program:
+- CERT-IN empanelled security auditor performs annual mandatory security audit
+- Regular VAPT (Vulnerability Assessment and Penetration Testing) of infrastructure, code, and applications
+- Regular security code audits and peer code reviews
+controls:
+  encryption_at_rest: AES-256
+  encryption_in_transit: TLS 1.2
+  access_control: Role Based Access Control (RBAC)
+  authentication: Multi-factor authentication (MFA) enforced across applications
+  device_management: Mobile Device Management (MDM), antivirus, host-based firewalls
+  incident_management: Dedicated incident management team
+  disaster_recovery: Documented disaster recovery / business continuity plan
+  hosting: AWS
+evidence:
+- source: https://www.dezerv.in/security/
+  keywords: [iso 27001, cert-in, vapt, aes-256, rbac, mfa, disaster recovery]
+notes: >-
+  Dezerv publishes a public security/compliance page describing its ISO 27001
+  certification, CERT-IN empanelled annual audit, VAPT program, and data-security
+  controls. No security.txt, bug-bounty, or named vulnerability-disclosure contact
+  was found, so no VulnerabilityDisclosure artifact is emitted.
